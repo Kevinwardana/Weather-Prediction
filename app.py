@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support, con
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 st.title("Weather Data Logistic Regression Analysis")
-
+st.write("by Kevin")
 # File upload
 uploaded_file = st.file_uploader("Choose a file", type=["csv"])
 if uploaded_file is not None:
